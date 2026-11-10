@@ -1,0 +1,73 @@
+
+# ==============================
+# Go build artifacts
+# ==============================
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# ==============================
+# Environment & secrets
+# ==============================
+.env
+.env.*
+config.env
+!.env.example
+!.env.sample
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Database files
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Go tools & coverage
+# ==============================
+coverage.out
+coverage.html
+*.prof
+*.pprof
+
+# ==============================
+# Dependencies (optional)
+# ==============================
+# vendor/
+# Uncomment only if you don't want to track vendored dependencies.
+
+# ==============================
+# IDE & editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==============================
+# Operating system
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Temporary files
+# ==============================
+tmp/
+temp/
+*.tmp
